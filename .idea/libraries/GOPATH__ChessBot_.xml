@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;ChessBot&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../goTests" />
+      <root url="file://$PROJECT_DIR$/../code.lukas.moe" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../goTests" />
+      <root url="file://$PROJECT_DIR$/../code.lukas.moe" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

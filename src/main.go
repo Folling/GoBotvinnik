@@ -18,7 +18,6 @@ func main() {
     if err != nil {
         raven.CaptureError(err, nil)
     }
-
     discord.AddHandler(OnReady)
     discord.AddHandler(OnMessage)
 

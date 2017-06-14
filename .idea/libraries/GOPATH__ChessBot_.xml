@@ -15,7 +15,7 @@
       <root url="file://$PROJECT_DIR$/../code.lukas.moe" />
     </SOURCES>
     <excluded>
-      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../GoBotvinnik" />
     </excluded>
   </library>
 </component>

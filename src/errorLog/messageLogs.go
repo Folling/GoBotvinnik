@@ -2,7 +2,7 @@ package errorLog
 
 import (
     "github.com/bwmarrin/discordgo"
-    "ChessBot/src/util"
+    "GoBotvinnik/src/util"
 )
 
 func Send(s *discordgo.Session, err *ChannelCreateError, msg string) {

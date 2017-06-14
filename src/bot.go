@@ -3,10 +3,10 @@ package main
 import (
     "github.com/bwmarrin/discordgo"
     "github.com/getsentry/raven-go"
-    //"ChessBot/src/util"
+    //"GoBotvinnik/src/util"
     "regexp"
     "strings"
-    "ChessBot/src/commands"
+    "GoBotvinnik/src/commands"
 )
 
 var (

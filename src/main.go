@@ -5,6 +5,7 @@ import (
     "os/signal"
     "github.com/bwmarrin/discordgo"
     "github.com/getsentry/raven-go"
+    "GoBotvinnik/src/launch"
 )
 
 
@@ -13,13 +14,12 @@ func init() {
 }
 
 func main() {
-
     discord, err := discordgo.New("Bot " + "Mjk5MTg4ODgwMzk2MTI0MTYw.DBwKBQ.qp8cMI_lK3dYw4GyIh0c-04L5fU")
     if err != nil {
         raven.CaptureError(err, nil)
     }
-    discord.AddHandler(OnReady)
-    discord.AddHandler(OnMessage)
+    discord.AddHandler(launch.OnReady)
+    discord.AddHandler(launch.OnMessage)
 
     err = discord.Open()
     if err != nil {

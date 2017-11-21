@@ -10,11 +10,11 @@ import (
 
 
 func init() {
-    raven.SetDSN("https://43ec317525d64825a5b799abb3a46e27:4bca63ea5ed04409bddce476971cbc25@sentry.io/178389")
+    raven.SetDSN("ravenDSN")
 }
 
 func main() {
-    discord, err := discordgo.New("Bot " + "Mjk5MTg4ODgwMzk2MTI0MTYw.DBwKBQ.qp8cMI_lK3dYw4GyIh0c-04L5fU")
+    discord, err := discordgo.New("Bot " + "token")
     if err != nil {
         raven.CaptureError(err, nil)
     }
